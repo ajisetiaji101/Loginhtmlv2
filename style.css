@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(japan.jpg);
+    background-size: cover;
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: rgba(128, 75, 75, 0.527);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    top: -78px;
+    left: calc(50% - 50px);
+    position: absolute;
+    
+}
+h1{
+    text-align: center;
+}
+form{
+    padding: 0 20px;
+}
+form .inputan{
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid turquoise;
+    width: 97%;
+    padding: 3px;
+}
+form .btn{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: none;
+    border: 1px solid turquoise;
+    padding: 5px;
+    color: whitesmoke;
+    outline: none;
+    cursor: pointer;
+}
+form .btn:hover{
+    outline:  rgb(31, 214, 196);
+}
+
+
